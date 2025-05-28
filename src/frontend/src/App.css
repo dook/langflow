@@ -223,3 +223,23 @@ code {
 .cm-gutters {
   display: none !important;
 }
+
+.header-logo {
+  height: 44px !important;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: auto;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 0px;
+  display: block;
+  object-fit: cover;
+  background-color: rgba(204, 29, 29, 0);
+  object-position: 50% 50%;
+}
