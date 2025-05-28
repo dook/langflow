@@ -4,7 +4,7 @@ import { SidebarMenuButton } from "@/components/ui/sidebar";
 export const CustomStoreButton = () => {
   return (
     <>
-      <div className="flex w-full items-center" data-testid="button-store">
+      {/* <div className="flex w-full items-center" data-testid="button-store">
         <SidebarMenuButton
           size="md"
           className="text-sm"
@@ -15,7 +15,7 @@ export const CustomStoreButton = () => {
           <ForwardedIconComponent name="Store" className="h-4 w-4" />
           Store
         </SidebarMenuButton>
-      </div>
+      </div> */}
     </>
   );
 };
